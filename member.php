@@ -94,7 +94,7 @@
     </div>
     <p class="clear"></p>
     <div class="banner loader">
-        <a href="http://45.125.12.97/cook/掌上厨师.apk" target="_blank">
+        <a href="http://www.pocketchef.cn/download/掌上厨师.apk" target="_blank">
             <img src="/public/pc/img/down-banner.png"/>
         </a>
     </div>

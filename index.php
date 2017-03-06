@@ -196,7 +196,7 @@
               shade: 0.8,
               closeBtn: 0,
               shadeClose: true,
-              content: 'http://45.125.12.97/cook/video/大鱼 - 双笙.mp4'
+              content: 'http://www.pocketchef.cn/video/about.mp4'
             });
         "><img src="/public/pc/img/play.png"/></a>
     </div>

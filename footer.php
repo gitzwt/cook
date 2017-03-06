@@ -42,7 +42,7 @@
 					<a href="http://weibo.com/2658052163" target="_blank" class="foot_logo sina">&nbsp;</a>
 				</span>
                 <div class="weixin_div">
-                    <img src="/public/pc/img/zwt_weichat.jpg" width="128" height="128"/>
+                    <img src="/public/pc/img/weichat.jpg" width="128" height="128"/>
                     <p style="font-size:14px;">扫一扫，关注微信公众平台</p>
                 </div>
             </div>
