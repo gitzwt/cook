@@ -5,8 +5,7 @@
  * Date: 2017/3/5
  * Time: 17:50
  */
-require_once 'inc/medoo.php';//库操作
-require_once 'inc/config.php';//配置
+
 ?>
 
 
