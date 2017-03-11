@@ -75,7 +75,7 @@
         <div class="spoken_lan">
             <p class="family">足不出户，尊享星级大厨</p>
             <span class="plex_lan">掌上厨师，国内专业的私厨上门服务平台</span>
-            <p class="how_user"><a id="how2use" href="/use.php">如何使用</a> <a href="/bespeak.php"
+            <p class="how_user"><a id="how2use" href="/how2use.php">如何使用</a> <a href="/bespeak.php"
                                                                                     class="">立即预订</a></p>
             <p class="clear"></p>
         </div>

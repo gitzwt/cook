@@ -8,12 +8,12 @@
  */
 
 // 返回JSON函数
-function callbackjson($flag, $msg, $data)
-{
+function callbackjson($flag,$msg,$data){
+
     $api_data = array(
-        'msg'  => $msg,
-        'flag' => $flag,
-        'data' => $data
+        'flag'=>$flag,
+        'msg' =>$msg,
+        'data'=>$data
     );
     echo(json_encode($api_data));
 }
@@ -47,3 +47,5 @@ function log($type, $logtext)
         return false;
     }
 }
+
+?>

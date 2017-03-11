@@ -5,7 +5,8 @@
  * Date: 2017/3/5
  * Time: 17:50
  */
-
+require_once 'inc/medoo.php';//库操作
+require_once 'inc/config.php';//配置
 ?>
 
 
@@ -201,20 +202,17 @@
         layer.confirm('确定信息属实并提交吗？', {
             btn: ['确定', '取消']
         }, function () {
-            var index = layer.load(1, {
-                shade: [0.1, '#fff'] //0.1透明度的白色背景
-            });
-            var uri = "json.php/cooker_join";
-            $.post(uri, $('#join').serialize(), function (data) {
+            $.post('json.php/join',$('#join').serialize(),function(data){
                 var d = data;
-                console.log(uri);
-                if (d.flag == 200) {
+                console.log(d);
+                if(d.flag == 200){
                     layer.msg(d.msg);
                     location.href = './kitchener.php';
-                } else {
+                }else{
                     layer.msg(d.msg);
                 }
             }, 'json');
+
         }, function () {
             layer.msg('取消了哦', {
                 time: 5000,

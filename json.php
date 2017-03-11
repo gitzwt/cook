@@ -18,7 +18,7 @@ $app->config(array(
 ));
 
 //厨师招募
-$app->post('/cooker_join', function () {
+$app->post('/join', function () {
     global $flag, $msg, $data, $db, $domain, $home;
     if(isset($_POST['phone']) && $_POST['phone']!='') {
         $has = $db->get("kitchener", '*', [
@@ -56,3 +56,4 @@ $app->post('/cooker_join', function () {
 
 
 $app->run();
+

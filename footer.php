@@ -46,7 +46,7 @@
                     <p style="font-size:14px;">扫一扫，关注微信公众平台</p>
                 </div>
             </div>
-            <span class="dachu">@开化职教中心,Inc.</span>
+            <span class="dachu">@掌上厨师,Inc.</span>
         </div>
     </div>
     <p class="clear"></p>
