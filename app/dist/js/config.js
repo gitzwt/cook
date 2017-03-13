@@ -1,0 +1,1 @@
+var api = 'http://wap.cw2009.com/';
