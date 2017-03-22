@@ -2,35 +2,25 @@
 /**
  * Created by PhpStorm.
  * User: hui
- * Date: 2017/3/11
- * Time: 20:43
+ * Date: 2017/3/22
+ * Time: 22:42
  */
-
 ?>
 
 
 <!DOCTYPE html>
 <html>
 <head>
-    <script>
-        wxData = {
-            'appId': 'wx6fd9b15a00219c54', // 服务号可以填写appId，没有则留空
-            'imgUrl': 'http://img.idachu.com/201501/b26129699076b0033cfd675edbee436a_300.jpg', // 分享显示的图标
-            'link': 'http://www.idachu.cn/kitchener/view/2905', // 分享链接
-            'title': "爱大厨厨师罗红军", // 分享标题
-            'desc': '69元约个私厨上门做饭，窝在沙发上看完电视，美味佳肴就上桌啦！' // 分享内容
-        };
-    </script>
     <title>罗红军</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,minimal-ui"/>
     <meta name="apple-mobile-web-app-capable" content="yes"/>
     <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
     <meta name="format-detection" content="telephone=no"/>
-    <link href="http://www.idachu.cn/icon/production/index.css?ver=7f484403" rel="stylesheet"/>
+    <link href="http://www.idachu.cn/icon/production/index.css?ver=<?php echo date('YmdHis')?>" rel="stylesheet"/>
     <meta name="keywords" content="">
-    <meta name="description" content="爱大厨,国内专业的私厨上门服务平台.北上广深八大菜系数千名大厨为你待命,app在线预约,金牌厨师上门做饭.家常用餐,宴请贵宾,爱大厨为您私人订制上门服务">
-    <script charset="utf-8" src="http://www.idachu.cn/icon/production/index.js?ver=7f484403"></script>
+    <meta name="description" content="掌上厨师,国内专业的私厨上门服务平台.北上广深浙八大菜系数千名大厨为你待命,app在线预约,金牌厨师上门做饭.家常用餐,宴请贵宾,掌上厨师为您私人订制上门服务">
+    <script charset="utf-8" src="http://www.idachu.cn/icon/production/index.js?ver=<?php echo date('YmdHis')?>"></script>
     <script>
         function base_url(seg, params){
             seg = seg||'/';
@@ -46,7 +36,7 @@
         function idachuapplogin(str){
             $('#save_btn').do_action({
                 url: base_url('user/do_app_login'),
-                data: {auth: str, forward: 'http://www.idachu.cn/kitchener/view/2905'},
+                data: {auth: str, forward: 'http://melike.imwork.net/cook/cooker/2905'},
                 success: function(url){
                     if(url){
                         location.href = url;
@@ -320,7 +310,7 @@
         <div class="des">
             大厨点评：罗师傅从事厨师行业12年，馋嘴系列是他的拿手菜，烧茄子做的更是特别好吃。			</div>
         <div class="des btns">
-            <span class="bespeak_num"><bespeak_num>366</bespeak_num>人预订过</span>
+            <span class="bespeak_num"><bespeak_num>367</bespeak_num>人预订过</span>
 
             <button id="fav_btn" class="btn btn-default btn-sm "><i class="glyphicon glyphicon-star-empty"></i> 收藏</button>
         </div>
@@ -333,8 +323,8 @@
         </div>
         <ul class="list-group">
             <li class="list-group-item">年龄：<span style="margin-left:10px;">36岁（厨龄15年）</span></li>
-            <li class="list-group-item">服务范围：<span style="margin-left:10px;">通州马厂</span></li>
-            <li class="list-group-item">服务时间：<span style="margin-left:10px;"></span></li>
+            <li class="list-group-item">服务范围：<span style="margin-left:10px;">常山周边</span></li>
+            <li class="list-group-item">服务时间：<span style="margin-left:10px;">周一14点到20点、周三14点到20点、周四14点到20点、周五14点到20点、周六14点到20点</span></li>
         </ul>
     </div>
 
@@ -345,9 +335,18 @@
         <ul class="list-group">
             <li class="list-group-item comment">
                 <div class="n1">
+                    <span class="n">134****1013</span>
+                    <span class="star star-50"></span>
+                    <span class="t">2017-03-19</span>
+                </div>
+                <div class="c">
+                    师傅很有礼貌，而且都会走时把厨房收拾干净					</div>
+            </li>
+            <li class="list-group-item comment">
+                <div class="n1">
                     <span class="n">139****7055</span>
                     <span class="star star-50"></span>
-                    <span class="t">2016-11-25</span>
+                    <span class="t">2017-02-25</span>
                 </div>
                 <div class="c">
                     服务超赞，完全征服了我的胃					</div>
@@ -356,7 +355,7 @@
                 <div class="n1">
                     <span class="n">158****1930</span>
                     <span class="star star-50"></span>
-                    <span class="t">2016-11-18</span>
+                    <span class="t">2017-02-18</span>
                 </div>
                 <div class="c">
                     非常好					</div>
@@ -365,7 +364,7 @@
                 <div class="n1">
                     <span class="n">139****0615</span>
                     <span class="star star-50"></span>
-                    <span class="t">2016-10-21</span>
+                    <span class="t">2017-02-21</span>
                 </div>
                 <div class="c">
                     服务超赞，完全征服了我的胃					</div>
@@ -374,7 +373,7 @@
                 <div class="n1">
                     <span class="n">183****9918</span>
                     <span class="star star-50"></span>
-                    <span class="t">2016-10-18</span>
+                    <span class="t">2017-02-18</span>
                 </div>
                 <div class="c">
                     服务超赞，完全征服了我的胃					</div>
@@ -383,7 +382,7 @@
                 <div class="n1">
                     <span class="n">186****3346</span>
                     <span class="star star-50"></span>
-                    <span class="t">2016-09-26</span>
+                    <span class="t">2017-02-26</span>
                 </div>
                 <div class="c">
                     服务超赞，完全征服了我的胃					</div>
@@ -392,7 +391,7 @@
                 <div class="n1">
                     <span class="n">匿名</span>
                     <span class="star star-50"></span>
-                    <span class="t">2016-09-25</span>
+                    <span class="t">2017-02-25</span>
                 </div>
                 <div class="comment-imgs">
                     <img orig-src="http://img.idachu.com/201609/adc3087da2dcca8bfe1e63e964a721f1.jpg" src="http://www.idachu.cn/icon/images/chief_placeholder.png?ver=7f484403"  data-src="http://img.idachu.com/201609/adc3087da2dcca8bfe1e63e964a721f1_300.jpg"/>
@@ -408,7 +407,7 @@
                 <div class="n1">
                     <span class="n">139****0615</span>
                     <span class="star star-50"></span>
-                    <span class="t">2016-07-13</span>
+                    <span class="t">2017-02-13</span>
                 </div>
                 <div class="c">
                     服务好，味道好					</div>
@@ -417,7 +416,7 @@
                 <div class="n1">
                     <span class="n">186****0101</span>
                     <span class="star star-50"></span>
-                    <span class="t">2016-06-30</span>
+                    <span class="t">2017-02-30</span>
                 </div>
                 <div class="comment-imgs">
                     <img orig-src="http://img.idachu.com/201606/e88cd4c6af30fe0c41c8120e590526b5.jpg" src="http://www.idachu.cn/icon/images/chief_placeholder.png?ver=7f484403"  data-src="http://img.idachu.com/201606/e88cd4c6af30fe0c41c8120e590526b5_300.jpg"/>
@@ -429,7 +428,7 @@
                 <div class="n1">
                     <span class="n">138****7228</span>
                     <span class="star star-50"></span>
-                    <span class="t">2016-06-14</span>
+                    <span class="t">2017-02-14</span>
                 </div>
                 <div class="comment-imgs">
                     <img orig-src="http://img.idachu.com/201606/01c0c8e8e80d08a5e27f9e0a5b2d7e3c.jpg" src="http://www.idachu.cn/icon/images/chief_placeholder.png?ver=7f484403"  data-src="http://img.idachu.com/201606/01c0c8e8e80d08a5e27f9e0a5b2d7e3c_300.jpg"/>
@@ -441,7 +440,7 @@
                 <div class="n1">
                     <span class="n">匿名</span>
                     <span class="star star-10"></span>
-                    <span class="t">2016-06-10</span>
+                    <span class="t">2017-02-10</span>
                 </div>
                 <div class="c">
                     我发现来的不是这个厨师！好奇怪。突然发现的					</div>
@@ -450,7 +449,7 @@
                 <div class="n1">
                     <span class="n">137****6163</span>
                     <span class="star star-50"></span>
-                    <span class="t">2016-06-08</span>
+                    <span class="t">2017-02-08</span>
                 </div>
                 <div class="c">
                     服务超赞，完全征服了我的胃					</div>
@@ -459,7 +458,7 @@
                 <div class="n1">
                     <span class="n">136****2999</span>
                     <span class="star star-50"></span>
-                    <span class="t">2016-01-31</span>
+                    <span class="t">2017-01-31</span>
                 </div>
                 <div class="c">
                     服务超赞，完全征服了我的胃					</div>
@@ -468,7 +467,7 @@
                 <div class="n1">
                     <span class="n">135****6286</span>
                     <span class="star star-50"></span>
-                    <span class="t">2015-12-12</span>
+                    <span class="t">2017-02-12</span>
                 </div>
                 <div class="comment-imgs">
                     <img orig-src="http://img.idachu.com/201512/b16c01f56004de4775e6d6e520a296af.jpg" src="http://www.idachu.cn/icon/images/chief_placeholder.png?ver=7f484403"  data-src="http://img.idachu.com/201512/b16c01f56004de4775e6d6e520a296af_300.jpg"/>
@@ -480,7 +479,7 @@
                 <div class="n1">
                     <span class="n">189****4651</span>
                     <span class="star star-50"></span>
-                    <span class="t">2015-12-12</span>
+                    <span class="t">2017-01-12</span>
                 </div>
                 <div class="comment-imgs">
                     <img orig-src="http://img.idachu.com/201512/b4822285c5ab1128e1998c2b7a1f04c3.jpg" src="http://www.idachu.cn/icon/images/chief_placeholder.png?ver=7f484403"  data-src="http://img.idachu.com/201512/b4822285c5ab1128e1998c2b7a1f04c3_300.jpg"/>
@@ -491,18 +490,9 @@
                 <div class="c">
                     罗师傅准时上门，2小时完成，态度很好，味道不错，就是稍有些咸，可能我们家人口淡。再次感谢！					</div>
             </li>
-            <li class="list-group-item comment">
-                <div class="n1">
-                    <span class="n">136****3102</span>
-                    <span class="star star-50"></span>
-                    <span class="t">2015-12-10</span>
-                </div>
-                <div class="c">
-                    很好吃，以后会经常定，比从外面吃强多了					</div>
-            </li>
         </ul>
     </div>
 </div>
-<?php include 'footer.php'; ?>
+<?php include '../footer.php'; ?>
 </body>
 </html>

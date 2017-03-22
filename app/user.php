@@ -18,10 +18,10 @@
     <meta name="apple-mobile-web-app-capable" content="yes"/>
     <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
     <meta name="format-detection" content="telephone=no"/>
-    <link href="http://www.idachu.cn/icon/production/index.css?ver=7f484403" rel="stylesheet"/>
+    <link href="http://www.idachu.cn/icon/production/index.css?ver=<?php echo date('YmdHis')?>" rel="stylesheet"/>
     <meta name="keywords" content="">
-    <meta name="description" content="爱大厨,国内专业的私厨上门服务平台.北上广深八大菜系数千名大厨为你待命,app在线预约,金牌厨师上门做饭.家常用餐,宴请贵宾,爱大厨为您私人订制上门服务">
-    <script charset="utf-8" src="http://www.idachu.cn/icon/production/index.js?ver=7f484403"></script>
+    <meta name="description" content="掌上厨师,国内专业的私厨上门服务平台.北上广深浙八大菜系数千名大厨为你待命,app在线预约,金牌厨师上门做饭.家常用餐,宴请贵宾,掌上厨师为您私人订制上门服务">
+    <script charset="utf-8" src="http://www.idachu.cn/icon/production/index.js?ver=<?php echo date('YmdHis')?>"></script>
     <script>
         function base_url(seg, params){
             seg = seg||'/';
@@ -37,7 +37,7 @@
         function idachuapplogin(str){
             $('#save_btn').do_action({
                 url: base_url('user/do_app_login'),
-                data: {auth: str, forward: 'http://www.idachu.cn/user'},
+                data: {auth: str, forward: 'http://melike.imwork.net/cook/user'},
                 success: function(url){
                     if(url){
                         location.href = url;
@@ -70,29 +70,29 @@
 <body>
 <div class="wraper">
     <div class="user_head">
-        <img src="http://www.idachu.cn/icon/images/head.png?ver=7f484403" width="40" height="40"/>
+        <img src="http://www.idachu.cn/icon/images/head.png" width="40" height="40"/>
         <div class="name">13777399387</div>
     </div>
     <div class="heipx"></div>
 
     <ul class="property-list">
-        <li class="property-list-item touch property-list-detail touch-link"><i class="property-icon property-icon-bespeak"></i>我的订单 <a href="http://www.idachu.cn/user/bespeak"></a></li>
-        <li class="property-list-item touch property-list-detail touch-link"><i class="property-icon property-icon-favorite"></i>收藏 <a href="http://www.idachu.cn/user/favorite"></a></li>
-        <li class="property-list-item touch property-list-detail touch-link"><i class="property-icon property-icon-coupon"></i>优惠券 <a href="http://www.idachu.cn/user/coupon"></a></li>
-        <li class="property-list-item touch property-list-detail touch-link"><i class="property-icon property-icon-location"></i>常用地址 <a href="http://www.idachu.cn/user/address"></a></li>
+        <li class="property-list-item touch property-list-detail touch-link"><i class="property-icon property-icon-bespeak"></i>我的订单 <a href="http://melike.imwork.net/cook/user/bespeak"></a></li>
+        <li class="property-list-item touch property-list-detail touch-link"><i class="property-icon property-icon-favorite"></i>收藏 <a href=""></a></li>
+        <li class="property-list-item touch property-list-detail touch-link"><i class="property-icon property-icon-coupon"></i>优惠券 <a href=""></a></li>
+        <li class="property-list-item touch property-list-detail touch-link"><i class="property-icon property-icon-location"></i>常用地址 <a href=""></a></li>
     </ul>
     <div class="heipx"></div>
 
     <ul class="property-list">
-        <li class="property-list-item touch property-list-detail touch-link"><i class="property-icon property-icon-phone"></i>客服电话 <span class="property-summary">010-80121586</span><a href="tel:010-80121586"></a></li>
-        <li class="property-list-item touch property-list-detail touch-link"><i class="property-icon property-icon-help"></i>使用帮助 <a href="http://www.idachu.cn/document/view/64"></a></li>
-        <li class="property-list-item touch property-list-detail touch-link"><i class="property-icon property-icon-copyright"></i>用户协议 <a href="http://www.idachu.cn/document/view/65"></a></li>
+        <li class="property-list-item touch property-list-detail touch-link"><i class="property-icon property-icon-phone"></i>客服电话 <span class="property-summary">0570-12345678</span><a href="tel:010-80121586"></a></li>
+        <li class="property-list-item touch property-list-detail touch-link"><i class="property-icon property-icon-help"></i>使用帮助 <a href="http://melike.imwork.net/cook/64.php"></a></li>
+        <li class="property-list-item touch property-list-detail touch-link"><i class="property-icon property-icon-copyright"></i>用户协议 <a href="http://melike.imwork.net/cook/65.php"></a></li>
     </ul>
     <div class="heipx"></div>
 
     <ul class="property-list">
-        <li class="property-list-item touch property-list-detail property-has-value touch-link"><i class="property-icon property-icon-home"></i>切换城市 <span class="property-summary">北京</span><a href="http://www.idachu.cn/welcome/city"></a></li>
-        <li class="property-list-item touch property-list-detail touch-link"><i class="property-icon property-icon-bespeak"></i>退出登录 <a href="http://www.idachu.cn/user/logout"></a></li>
+        <li class="property-list-item touch property-list-detail property-has-value touch-link"><i class="property-icon property-icon-home"></i>切换城市 <span class="property-summary">浙江</span><a href=""></a></li>
+        <li class="property-list-item touch property-list-detail touch-link"><i class="property-icon property-icon-bespeak"></i>退出登录 <a href=""></a></li>
     </ul>
     <div class="heipx"></div>
 

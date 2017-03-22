@@ -155,7 +155,7 @@
                 var memo = $('#memo').val();
 
                 $(this).do_action({
-                    url: 'http://www.idachu.cn/bespeak/do_save',
+                    url: 'http://melike.imwork.net/cook/bespeak/do_save',
                     data: {
                         date: date,
                         package: package,
@@ -229,7 +229,7 @@
         </ul>
     </div>
     <ul id="datelist" style="display:none">
-        <li data-val="2017-03-12">3月12日(日)				<ul>
+        <li data-val="2017-03-12">3月24日(五)				<ul>
                 <li data-val="10">10点
                     <ul>
                         <li data-val="00">00分</li>
@@ -298,7 +298,7 @@
                 </li>
             </ul>
         </li>
-        <li data-val="2017-03-13">3月13日(一)				<ul>
+        <li data-val="2017-03-13">3月25日(六)				<ul>
                 <li data-val="10">10点
                     <ul>
                         <li data-val="00">00分</li>
@@ -367,7 +367,7 @@
                 </li>
             </ul>
         </li>
-        <li data-val="2017-03-14">3月14日(二)				<ul>
+        <li data-val="2017-03-14">3月26日(日)				<ul>
                 <li data-val="10">10点
                     <ul>
                         <li data-val="00">00分</li>
@@ -436,7 +436,7 @@
                 </li>
             </ul>
         </li>
-        <li data-val="2017-03-15">3月15日(三)				<ul>
+        <li data-val="2017-03-15">3月27日(一)				<ul>
                 <li data-val="10">10点
                     <ul>
                         <li data-val="00">00分</li>
@@ -514,35 +514,17 @@
             就餐地址
         </div>
         <ul class="list-group">
-            <li class="list-group-item edit_controll"><span class="alt">小区名 <span class="required">*</span></span><input type="text" class="input" id="community" value="三里屯北小区" placeholder="例如三里屯北小区"/></li>
-            <li class="list-group-item edit_controll"><span class="alt">门牌号 <span class="required">*</span></span><input type="text" class="input" id="door_number" value="1号楼501" placeholder="例如1号楼501"/></li>
+            <li class="list-group-item edit_controll"><span class="alt">小区名 <span class="required">*</span></span><input type="text" class="input" id="community" value="" placeholder="例如开化职教中心"/></li>
+            <li class="list-group-item edit_controll"><span class="alt">门牌号 <span class="required">*</span></span><input type="text" class="input" id="door_number" value="" placeholder="例如798文化创意苑"/></li>
         </ul>
     </div>
-    <select id="area">
-        <option value="朝阳区" selected selected2="true">朝阳区</option>
-        <option value="海淀区" >海淀区</option>
-        <option value="东城区" >东城区</option>
-        <option value="西城区" >西城区</option>
-        <option value="丰台区" >丰台区</option>
-        <option value="石景山区" >石景山区</option>
-        <option value="房山区" >房山区</option>
-        <option value="通州区" >通州区</option>
-        <option value="昌平区" >昌平区</option>
-        <option value="大兴区" >大兴区</option>
-        <option value="顺义区" >顺义区</option>
-        <option value="密云县" >密云县</option>
-        <option value="怀柔区" >怀柔区</option>
-        <option value="延庆县" >延庆县</option>
-        <option value="平谷区" >平谷区</option>
-        <option value="门头沟区" >门头沟区</option>
-    </select>
     <div class="panel panel-default">
         <div class="panel-heading">
             联系方式
         </div>
         <ul class="list-group">
-            <li class="list-group-item edit_controll"><span class="alt">姓名 <span class="required">*</span></span><input type="text" class="input" id="name" value="zwt" placeholder="您的姓名"/></li>
-            <li class="list-group-item edit_controll"><span class="alt">手机号 <span class="required">*</span></span><input type="text" class="input" id="phone" value="13777399387" placeholder="您的手机号"/></li>
+            <li class="list-group-item edit_controll"><span class="alt">姓名 <span class="required">*</span></span><input type="text" class="input" id="name" value="" placeholder="您的姓名"/></li>
+            <li class="list-group-item edit_controll"><span class="alt">手机号 <span class="required">*</span></span><input type="text" class="input" id="phone" value="" placeholder="您的手机号"/></li>
         </ul>
     </div>
 

@@ -11,31 +11,31 @@
 <div id="footer">
     <footer>
         <section class="touch">
-            <a href="/">
+            <a href="http://melike.imwork.net/cook/index.php">
                 <i class="glyphicon glyphicon-home"></i>
                 <span>首页</span>
             </a>
         </section>
         <section class="touch">
-            <a href="kitchener.php">
+            <a href="http://melike.imwork.net/cook/kitchener.php">
                 <i class="glyphicon glyphicon-cloud"></i>
                 <span>大厨</span>
             </a>
         </section>
         <section class="touch quick-add">
-            <a href="bespeak.php">
+            <a href="http://melike.imwork.net/cook/bespeak.php">
                 <i class="glyphicon"></i>
                 <span>快速预约</span>
             </a>
         </section>
         <section class="touch">
-            <a href="/user/bespeak.php">
+            <a href="http://melike.imwork.net/cook/user/bespeak.php">
                 <i class="glyphicon glyphicon-list"></i>
                 <span>我的订单</span>
             </a>
         </section>
         <section class="touch">
-            <a href="user.php">
+            <a href="http://melike.imwork.net/cook/user.php">
                 <i class="glyphicon glyphicon-user"></i>
                 <span>我</span>
             </a>

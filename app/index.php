@@ -164,22 +164,22 @@
 </head>
 <body>
 <div id="top-list">
-    <a class="top-item" style="background-image:url(http://img.idachu.com/201702/ac70ab709726b122263693c992355c6f.jpg);"
-       href="http://www.idachu.cn/event/discount2017"></a>
-    <a class="top-item" style="background-image:url(http://img.idachu.com/201603/8e2c123c9835607e1decaa6552453624.jpg);"
-       href="http://www.idachu.cn/document/view/33"></a>
+    <a class="top-item" style="background-image:url(http://melike.imwork.net/cook/dist/images/22.jpg);"
+       href="33.php"></a>
+    <a class="top-item" style="background-image:url(http://melike.imwork.net/cook/dist/images/33.jpg);"
+       href="33.php"></a>
 </div>
 <div class="container">
     <div class="ord">
         <div class="quick touch touch-link">
             <div class="ord-icon"></div>
             家常用餐
-            <a href="http://www.idachu.cn/bespeak"></a>
+            <a href="bespeak.php"></a>
         </div>
         <div class="party touch touch-link">
             <div class="ord-icon"></div>
             私人定制
-            <a href="http://www.idachu.cn/party/info/1009"></a>
+            <a href="1009.php"></a>
         </div>
         <div class="clearfix"></div>
     </div>
@@ -187,11 +187,11 @@
         <h3><i></i>热门服务<i></i></h3>
         <div class="hot-item touch touch-link"
              style="background:url(http://img.idachu.com/201702/c92e89942b857b2e1b7bba5eb3a3704f.jpg) 0 0 no-repeat;background-size:100% 100%;">
-            <a href="http://www.idachu.cn/party/info/1027"></a>
+            <a href="1027.php"></a>
         </div>
         <div class="hot-item touch touch-link"
              style="background:url(http://img.idachu.com/201702/70fba0e838518ee9412169e4d165a315.jpg) 0 0 no-repeat;background-size:100% 100%;">
-            <a href="http://www.idachu.cn/ingenuity/cat/8"></a>
+            <a href="8.php"></a>
         </div>
     </div>
 </div>

@@ -37,7 +37,7 @@
         function idachuapplogin(str){
             $('#save_btn').do_action({
                 url: base_url('user/do_app_login'),
-                data: {auth: str, forward: 'http://www.idachu.cn/user/bespeak'},
+                data: {auth: str, forward: 'http://melike.imwork.net/cook/user/bespeak'},
                 success: function(url){
                     if(url){
                         location.href = url;
@@ -73,10 +73,10 @@
 <body class="folder">
 <div class="container" style="padding:0;">
     <div class="nav-list">
-        <div class="nav-list-item touch active" act="all"><a href="http://www.idachu.cn/user/bespeak">全部</a></div>
-        <div class="nav-list-item touch "><a href="http://www.idachu.cn/user/bespeak/list/waiting_pay">待支付</a></div>
-        <div class="nav-list-item touch "><a href="http://www.idachu.cn/user/bespeak/list/waiting_comment">待评价</a></div>
-        <div class="nav-list-item touch "><a href="http://www.idachu.cn/user/bespeak/list/cancel">已取消</a></div>
+        <div class="nav-list-item touch active" act="all"><a href="http://melike.imwork.net/cook/user/bespeak">全部</a></div>
+        <div class="nav-list-item touch "><a href="">待支付</a></div>
+        <div class="nav-list-item touch "><a href="">待评价</a></div>
+        <div class="nav-list-item touch "><a href="">已取消</a></div>
     </div>
     <div class="heipx"></div>
 
@@ -93,7 +93,7 @@
                 <h2>四菜套餐</h2><em>就餐时间：2017-03-13 10:00</em>
             </div>
             <div class="order-footer">
-                实付: ￥158				<a href="http://www.idachu.cn/bespeak/pay/69138739?showwxpaytitle=1" class="obtn obtn-pay">去支付</a>
+                实付: ￥158				<a href="" class="obtn obtn-pay">去支付</a>
             </div>
             <div class="heipx"></div>
         </li>		</ul>
